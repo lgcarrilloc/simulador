@@ -1,0 +1,19 @@
+PROMPT INICIAL:
+Mejorar el diseño visual de una página web tipo simulador financiero para que tenga un aspecto empresarial, profesional y moderno.
+
+PROMPTS DE EVOLUCIÓN Y AJUSTES REALIZADOS:
+1. Aplicar una identidad visual basada en una entidad bancaria real (Produbanco), usando una paleta de colores institucionales en tonos verdes, blanco y grises.
+2. Diseñar una interfaz limpia, sobria y adecuada para una aplicación financiera, priorizando la claridad y la legibilidad.
+3. Hacer el logotipo de la entidad bancaria más grande y centrado para reforzar la identidad corporativa.
+4. Destacar el título principal “Simulador de Crédito” con mayor tamaño y un tono de verde más oscuro.
+5. Centrar y subrayar los encabezados de las secciones “Datos financieros” y “Solicitud de crédito”.
+6. Separar claramente los campos de entrada (formularios) de los resultados calculados, usando estructuras visuales diferentes.
+7. Organizar los resultados financieros en bloques visuales tipo tarjeta, con fondo claro y detalles en color institucional.
+8. Alinear los textos descriptivos a la izquierda y los valores numéricos a la derecha, manteniendo todos los valores a la misma altura.
+9. Mostrar los resultados financieros con valores destacados, utilizando mayor peso visual en los números y símbolos monetarios.
+10. Eliminar la negrilla en los textos descriptivos y mantenerla solo en los valores numéricos para mejorar la jerarquía visual.
+11. Aplicar el símbolo de dólar a los valores monetarios de forma consistente mediante la lógica de JavaScript.
+12. Asegurar que los datos como disponible, capacidad de pago, interés, total del préstamo y cuota mensual se presenten con alineación precisa y espaciado uniforme.
+13. Presentar algunos datos financieros de forma individual, manteniendo el mismo estilo visual bancario.
+14. Mantener un diseño completamente responsive, optimizado tanto para computadoras como para dispositivos móviles.
+15. Garantizar una experiencia de usuario clara y profesional, similar a la de un simulador bancario real.
