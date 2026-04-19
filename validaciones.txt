@@ -1,0 +1,17 @@
+PROMPT INICIAL:
+Mejorar un simulador de crédito web usando inteligencia artificial, incorporando validaciones completas y una experiencia de usuario profesional y segura.
+
+PROMPTS DE DESARROLLO Y VALIDACIONES:
+1. Implementar validaciones en JavaScript que se ejecuten al presionar el botón “Calcular Crédito”.
+2. Definir todos los campos financieros como obligatorios.
+3. Validar que los campos de ingresos, egresos, monto del crédito, plazo y tasa de interés acepten únicamente valores numéricos.
+4. Bloquear en tiempo real el ingreso de letras y caracteres especiales en los campos numéricos.
+5. Establecer rangos mínimos y máximos realistas para cada campo financiero, acorde a un simulador bancario.
+6. Validar que los egresos no puedan ser mayores o iguales a los ingresos.
+7. Mostrar mensajes de error claros y específicos debajo de cada campo que no cumpla una validación.
+8. Evitar que el formulario realice cálculos si existe al menos un error de validación.
+9. Limpiar automáticamente los mensajes de error al volver a ejecutar el cálculo o al reiniciar el formulario.
+10. Mostrar los resultados financieros con un formato claro, alineando los textos descriptivos a la izquierda y los valores numéricos a la derecha.
+12. Determinar el estado del crédito en función de la capacidad de pago mensual y la cuota calculada.
+13. Separar la lógica de validaciones de la lógica de negocio para mantener un código ordenado y mantenible.
+14. Garantizar que el simulador funcione correctamente tanto en computadoras como en dispositivos móviles.
