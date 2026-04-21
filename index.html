@@ -5,80 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulador de Crédito</title>
     <link rel="stylesheet" href="simulador.css">
-
 </head>
 
 <body>
     <div class="container">
         <img src="produbanco.png" alt="Produbanco" class="logo-banco">
-        <h1>SIMULADOR DE CREDITO</h1>
+
+        <h1>SIMULADOR DE CRÉDITO</h1>
         <h2>Datos financieros</h2>
 
         <div class="resultados">
             <label for="txtIngresos">Ingresos:</label>
             <input type="text" id="txtIngresos">
         </div>
+
         <div class="resultados">
-            <label for="txtEgresos">Egresos:</label>
-            <input type="text" id="txtEgresos">
-        </div>
-        
-
-    <div class="resultados">
-        <div class="fila">
-            <span class="label">Disponible</span>
-            <span class="valor" id="spnDisponible"></span>
+            <label for="txtArriendo">Arriendo:</label>
+            <input type="text" id="txtArriendo">
         </div>
 
-        <div class="fila">
-            <span class="label">Capacidad de pago mensual</span>
-            <span class="valor" id="spnCapacidadPago"></span>
+        <div class="resultados">
+            <label for="txtAlimentacion">Alimentación:</label>
+            <input type="text" id="txtAlimentacion">
         </div>
-    </div>
 
+        <div class="resultados">
+            <label for="txtVarios">Varios:</label>
+            <input type="text" id="txtVarios">
+        </div>
 
-    <h2>Solicitud de crédito</h2>
+        <div class="resultados">
+            <div class="fila">
+                <span class="label">Total gastos</span>
+                <span class="valor" id="spnTotalGastos"></span>
+            </div>
+
+            <div class="fila">
+                <span class="label">Disponible</span>
+                <span class="valor" id="spnDisponible"></span>
+            </div>
+
+            <div class="fila">
+                <span class="label">Capacidad de pago mensual</span>
+                <span class="valor" id="spnCapacidadPago"></span>
+            </div>
+        </div>
+
+        <h2>Solicitud de crédito</h2>
+
         <div class="resultados">
             <label for="txtMonto">Monto:</label>
             <input type="text" id="txtMonto">
         </div>
+
         <div class="resultados">
             <label for="txtPlazo">Plazo en años:</label>
             <input type="text" id="txtPlazo">
         </div>
+
         <div class="resultados">
             <label for="txtTasaInteres">Tasa de interés:</label>
             <input type="text" id="txtTasaInteres">
         </div>
-        
-    <div class="resultados">
-        <div class="fila">
-            <span class="label">Interés a pagar</span>
-            <span class="valor" id="spnInteresPagar"></span>
-         </div>
 
-        <div class="fila">
-            <span class="label">Total préstamo</span>
-            <span class="valor" id="spnTotalPrestamo"></span>
-        </div>
-        <div class="fila">
-            <span class="label">Cuota mensual</span>
-            <span class="valor" id="spnCuotaMensual"></span>
-        </div>
-    </div>
-    
-    <div class="resultados">
-        <span class="label">Estado de crédito:</span>
-        <span class="valor estado" id="spnEstadoCredito">ANALIZANDO...</span>
-    </div>
+        <div class="resultados">
+            <div class="fila">
+                <span class="label">Interés a pagar</span>
+                <span class="valor" id="spnInteresPagar"></span>
+            </div>
 
+            <div class="fila">
+                <span class="label">Total préstamo</span>
+                <span class="valor" id="spnTotalPrestamo"></span>
+            </div>
+
+            <div class="fila">
+                <span class="label">Cuota mensual</span>
+                <span class="valor" id="spnCuotaMensual"></span>
+            </div>
+        </div>
+
+        <div class="resultados">
+            <span class="label">Estado de crédito:</span>
+            <span class="valor estado" id="spnEstadoCredito">ANALIZANDO...</span>
+        </div>
 
         <div class="buttons">
             <button id="btnCalcularCredito" onclick="calcular()">Calcular Crédito</button>
             <button id="btnReiniciar" onclick="reiniciar()">Reiniciar</button>
         </div>
     </div>
-        <script src="simulador.js"></script>S
-        <script src="funciones.js"></script>
+
+    <script src="simulador.js"></script>
+    <script src="funciones.js"></script>
 </body>
 </html>
